@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/dashboard.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="containerAll">
+        <div class="menu">
+            <div class="logo">
+                <img src="./img/logoDash.png" alt="">
+            </div>
+
+            <div class="options">
+                <div class="dash">
+                    <img src="./img/iconDash.png" alt="">
+                    <h1>Dashboard</h1>
+                </div>
+                <div class="container-options-info">
+                    <div class="options-info">
+                        <img src="./img/iconTicket.png" alt="">
+                        <h1 style="color:white">Ticket médio</h1>
+                    </div>
+                    <div class="options-info">
+                        
+                        <img src="./img/IconStar-grey.png" alt="">
+                        <a href="/dashboardVendido.html"style="text-decoration: none;"><h1>Ticket vendido</h1></a>
+                    </div>
+                    <div class="options-info">
+                        
+                        <img src="./img/iconAvender.png" alt="">
+                        <a href="/dashboardVender.html"style="text-decoration: none;"><h1>Ticket a vender</h1></a>
+                    </div>
+                    <div class="options-info">
+                        
+                        <img src="./img/iconChargeback.png" alt="">
+                        <a href="/dashboardChargeback.html" style="text-decoration: none;"> <h1>Chargeback</h1></a>
+                    </div>
+                    <div class="options-info">
+                       
+                        <img src="./img/iconEmProcesso.png" alt="">
+                        <a href="/dashboardProcesso.html" style="text-decoration: none;"> <h1>Em processo</h1></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dashboard">
+
+            <div class="dashboard-text">
+                <h1>Dashboard -&nbsp;</h1>
+                <h1 id="cliente">NomeCliente</h1>
+            </div>
+            
+            <div class="container-date">
+                <div class="background-input">
+                    <img src="./img/iconDate.png" alt="">&nbsp;&nbsp;
+                    <input type="date">
+                    <p>-</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="date">
+                </div>
+            </div>
+
+            <div class="ticket-info">
+                <div class="ticket"  style=" border-bottom: 1px solid #CCFF00;" >
+                    <div class="ticket-text">
+                        <img src="./img/iconTicket2.png" alt="">
+                        <h1>Ticket médio</h1>
+                    </div>
+                    <div class="ticket-text2">
+                        <h1>R$ 0,00</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div> 
+
+
+
+
+
+    </div>
+    
+</body>
+</html>

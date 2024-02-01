@@ -1,0 +1,188 @@
+body{
+    background-color: #121212;
+}
+
+.containerAll{
+    width: 100%;
+    display: flex;
+}
+
+/* ---------------MENU------------------------ */
+
+.menu{
+    background-color: #101010;
+    width: 20%;
+    height: 100vh
+}
+
+.logo{
+    padding-top: 4vh;
+    text-align: center;
+}
+
+.logo img{
+    width: 55%;
+}
+
+.options{
+    padding-top: 6vh;
+    text-align: center;
+}    
+
+.dash h1{
+    color:#777777;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.dash{
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 20%;
+    align-items: center; /* Centralizar verticalmente */
+    gap: .5rem;
+}
+
+.options-info{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; /* Centralizar verticalmente */
+    gap: .5rem;
+    cursor: pointer;
+}
+
+.container-options-info{
+    padding-left: 20%;
+    padding-right: 10%;
+}
+
+.options-info h1{
+    font-size: .9rem;
+    color:#777777;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+/* ----------------------- dashboard ------------------- */
+
+.dashboard-text{
+    padding-top: 4vh;
+    padding-left: 3vw;
+    display: flex;
+}
+
+.dashboard-text h1{
+    color:#777777;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    /* font-weight: 100; */
+}
+
+#cliente{
+    font-weight: 50;
+}
+
+.container-date{
+   padding-top: 5vh;
+   padding-left: 3vw;
+   display: flex;
+   
+}
+
+.container-date p{
+    color:white;
+   
+}
+
+.container-date input{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.background-input{
+    display: flex;
+    align-items: center; 
+    background-color: #141414;
+    height: 3vh;
+    padding:8px;
+    border-radius: 0px 10px 0px 10px;
+    
+}
+
+
+input[type="date"] {
+    appearance: none;
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-clear-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.ticket-info{
+    width: 100%;
+    padding-left: 1%;
+    padding-top: 5%;
+}
+
+.ticket{
+    background-color: #101010;
+    height: 30vh;
+    width: 78vw;
+    border-radius: 10px;
+   
+    /* display: flex; */
+    min-height: 200px;
+}
+
+.ticket-text{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ticket-text img{
+    width: 3%;
+    height:5vh;
+}
+
+.ticket-text h1{
+    font-size: 1.8rem;
+    color:#777777;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.ticket-text2{
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+}
+
+.ticket-text2 h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+}

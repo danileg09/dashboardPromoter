@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles//reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+</head>
+<body>
+    <div class="container">
+        <div class="containerIMG">
+            <img src="./img/urbanky_image1.png" alt="">
+        </div>
+
+        <div class="containerLogo">
+            <div class="logo">
+                <img src="./img/logo_urbanky1.png" alt="">
+            </div>
+            <div class="fields">
+                <div class="input-container">
+                    <input class="input" style="background-color: #FFFFFF;" type="text" placeholder="Email, Telefone, Cpf, Cnpj">
+                </div>
+                <br><br>
+                <div class="input-container">
+                    <input id="password" class="input" style="background-color: #FFFFFF;" type="password" placeholder="Senha">
+                    <button class="password-hide" type="button" onclick="passwordHide()">
+                        <i class="fas fa-eye-slash"></i>
+                    </button>
+                </div>
+
+                <a class="esqueciSenha" href=""><p>Esqueci minha senha </p></a>
+
+                <div class="input-entrar">
+                    <button class="inputButton">Entrar</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script>
+
+         function passwordHide() {
+                        var passwordInput = document.getElementById("password");
+                        var passwordHide = document.querySelector(".password-hide");
+
+                        if (passwordInput.type === "password") {
+                          passwordInput.type = "text";
+                          passwordHide.innerHTML = '<i class="fas fa-eye"></i>';
+                        } else {
+                          passwordInput.type = "password";
+                          passwordHide.innerHTML = '<i class="fas fa-eye-slash"></i>';
+                        }
+                      }
+    
+    </script>
+
+</body>
+</html>
